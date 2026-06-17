@@ -1,0 +1,24 @@
+# Cloud API Keys
+confluent_cloud_api_key    = "..."
+confluent_cloud_api_secret = "..."
+
+# AWS Region
+cc_region = "REGION"
+
+#  Cloud Provider
+cloud_provider = "AWS"
+
+prefix = "james"
+
+# AWS Bedrock credentials
+aws_access_key    = "..."
+aws_secret_key    = "..."
+bedrock_endpoint  = "https://bedrock-runtime.us-east-1.amazonaws.com/model/global.anthropic.claude-sonnet-4-6/invoke"
+
+# A2A agent endpoints (ngrok URLs — update each time tunnels restart)
+a2a_url_market_research = "https://example.ngrok-free.app"
+a2a_url_creative_design = "https://example.ngrok-free.app"
+a2a_url_copywriting     = "https://example.ngrok-free.app"
+
+# A2A credentials
+a2a_password = "..."
