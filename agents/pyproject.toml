@@ -1,0 +1,24 @@
+[project]
+name = "a2a-marketing-agents"
+version = "0.1.0"
+description = "LangGraph marketing agents exposed via A2A protocol"
+requires-python = ">=3.12"
+dependencies = [
+    "click>=8.1.8",
+    "httpx>=0.28.1",
+    "langchain-aws>=0.2.0",
+    "langgraph>=0.3.18",
+    "pydantic>=2.10.6",
+    "python-dotenv>=1.1.0",
+    "uvicorn>=0.34.2",
+    "sse-starlette>=2.3.6",
+    "starlette>=0.46.2",
+    "a2a-sdk>=0.3.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["app"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
